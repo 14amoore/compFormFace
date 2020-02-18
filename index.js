@@ -42,8 +42,7 @@ window.onload = function() {
     'black',
     'red',
     'brown',
-    'expertly colored',
-    '________'
+    'expertly colored'
   ]);
   const eyerbrowControl = gui.add(valentine, 'Eyebrows', [
     'full',
