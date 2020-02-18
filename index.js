@@ -14,7 +14,6 @@ window.onload = function() {
   document.body.style.fontFamily = 'sans-serif';
   const valentine = new FaceGenerator();
   const gui = new dat.GUI();
-  //   customContainer.appendChild(gui.domElement);
   const typeControl = gui.add(valentine, 'typeFace', [
     'sans-serif',
     'Lacquer',
